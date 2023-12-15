@@ -27,6 +27,7 @@ function personLocation() {
   console.log(person['location']); // Code Here
 }
 personLocation()
+
 /// ////////////// PROBLEM 3 ////////////////////
 
 /*
@@ -95,19 +96,19 @@ function updateProfile(profile, property, value) {
 updateProfile(userProfile, 'email', 'blah@yahoo.com')
 
 /// ////////////// PROBLEM 7 ////////////////////
-// const obj = {value1: 3, value2: 5, value7: 8}
+const obj = {value1: 3, value2: 5, value7: 8}
 // Inside the maxedOut function, loop over the given object using a for...in loop
 // to change all the object property values to "max".
 // Return the updated object.
 
-// function maxedOut(obj) {
-//   // REPLACE THIS WITH YOUR CODE
-//    for(let value in obj){
-//     obj[value] = "max"
-//   }
-//   console.log(obj);
-// }
-// maxedOut(obj)
+function maxedOut(obj) {
+  // REPLACE THIS WITH YOUR CODE
+   for(let value in obj){
+    obj[value] = "max"
+  }
+  console.log(obj);
+}
+maxedOut(obj)
 
 /// ////////////// PROBLEM 8 ///////////////////
 
